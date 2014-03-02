@@ -3,10 +3,18 @@
   "theme": "syntax",
   "version": "1.0.0",
   "private": true,
-  "description": "A short description of your theme",
-  "repository": "https://github.com/atom/unicorn-syntax",
   "license": "MIT",
+  "description": "A retro theme, with some vibrant colors",
+  "repository": "https://github.com/unicorn/atom-unicorn-syntax",
+  "author": {
+    "name": "Clay McIlrath",
+    "email": "thinkclay@gmail.com",
+    "url": "http://thinkclay.com"
+  },
   "engines": {
     "atom": ">0.50.0"
+  },
+  "bugs": {
+    "url": "https://github.com/james2doyle/atom-monokai-dark/issues"
   }
 }
