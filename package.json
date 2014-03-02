@@ -1,7 +1,7 @@
 {
   "name": "unicorn-syntax",
   "theme": "syntax",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "license": "MIT",
   "description": "A retro theme, with some vibrant colors",
@@ -13,8 +13,5 @@
   },
   "engines": {
     "atom": ">0.50.0"
-  },
-  "bugs": {
-    "url": "https://github.com/james2doyle/atom-monokai-dark/issues"
   }
 }
