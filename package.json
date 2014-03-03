@@ -1,7 +1,7 @@
 {
   "name": "unicorn-syntax",
   "theme": "syntax",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "license": "MIT",
   "description": "A retro theme, with some vibrant colors",
   "repository": "https://github.com/unicorn/atom-unicorn-syntax",
