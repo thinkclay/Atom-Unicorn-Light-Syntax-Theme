@@ -2,7 +2,6 @@
   "name": "unicorn-syntax",
   "theme": "syntax",
   "version": "1.2.2",
-  "private": true,
   "license": "MIT",
   "description": "A retro theme, with some vibrant colors",
   "repository": "https://github.com/unicorn/atom-unicorn-syntax",
@@ -12,6 +11,6 @@
     "url": "http://thinkclay.com"
   },
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=0.50.0"
   }
 }
