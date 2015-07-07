@@ -2,4 +2,4 @@
 
 A retro colored theme, with a slight unicorn flare to it.
 
-![Unicorn Screenshot](http://i.imgur.com/o0ItRR8.png)
+![Unicorn Screenshot](https://raw.githubusercontent.com/unicorn/atom-unicorn-light-syntax/master/screenshot.png)
