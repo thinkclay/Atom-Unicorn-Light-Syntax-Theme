@@ -1,11 +1,11 @@
 @import "colors";
 
-:host, atom-text-editor {
+atom-text-editor {
   background-color: @eggshell;
   color: @coffee;
 }
 
-:host, atom-text-editor {
+atom-text-editor {
   .invisible-character,
   .indent-guide {
     color: darken(@eggshell, 7%);
@@ -39,60 +39,60 @@
 }
 
 // This is a comment
-.comment {
+.syntax--comment {
   color: lighten(@coffee, 25%);
   font-style: italic;
 }
 
-.entity {
+.syntax--entity {
   color: @orange;
 }
 
-.keyword {
+.syntax--keyword {
   color: @yellow;
 }
 
-.storage.type {
+.syntax--storage.syntax--type {
   color: @green;
 }
 
-.constant {
+.syntax--constant {
   color: @yellow;
 }
 
-.variable {
+.syntax--variable {
   color: @blue;
 }
 
-.delimiter, .brace {
+.syntax--delimiter, .syntax--brace {
   color: @blue;
 }
 
-.delimiter.period {
+.syntax--delimiter.syntax--period {
   color: @green;
 }
 
-.invalid.deprecated {
+.syntax--invalid.syntax--deprecated {
   text-decoration: underline;
   color: @red;
 }
 
-.invalid.illegal {
+.syntax--invalid.syntax--illegal {
   color: @red;
 }
 
-.string {
+.syntax--string {
   color: lighten(@coffee, 10%);
 
-  .constant.character.escape {
+  .syntax--constant.syntax--character.syntax--escape {
     color: @red;
   }
 
-  &.regexp {
+  &.syntax--regexp {
     color: @magenta;
 
-    .source.ruby.embedded,
-    .string.regexp.arbitrary-repitition {
+    .syntax--source.syntax--ruby.syntax--embedded,
+    .syntax--string.syntax--regexp.syntax--arbitrary-repitition {
       color: @red;
     }
   }
